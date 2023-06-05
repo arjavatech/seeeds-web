@@ -72,7 +72,7 @@ html,body{
   z-index: 20;
 }
 
-li {
+li.nav-item{
   position: relative;
   left: 30px;
   color: #533549 !important;

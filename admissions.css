@@ -1,0 +1,44 @@
+body{
+    font-family: sans-serif;
+}
+
+.admission-fixed-img-title{
+  color: #fff;
+  font-size: 2.8rem;
+  padding-top: 110px;
+}
+
+.slection-process-span{
+  color: #d70140;
+}
+
+.admission-statics-span{
+  color: #d70140;
+}
+
+.admission-dropdown{
+  background-color: #d70140 !important;
+  color: black;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+/* tables  */
+
+.table-bg{
+  background-color: #d70140;
+}
+
+.sub-table-bg{
+  background-color: #f36892;
+}
+
+table.table-sty{
+  border-color: #d70140;
+}
+
+/* Js display properity  */
+
+.display{
+  display: none;
+}
