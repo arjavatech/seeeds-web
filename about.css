@@ -4,18 +4,21 @@ body{
 }
 
 /* Heading img inside content  */
-.about-bg-img-fix-title{
+.about-fixed-img-title{
     color: #fff;
-  font-size: 2.6rem;
-  padding-top: 110px;
-  text-align: center;
-  align-items: center;
-  vertical-align: middle;
+    font-size: 2.8rem;
+    padding-top: 110px;
 }
-
+/* @media (max-width:425px) {
+    .about-fixed-img-title{
+        font-size: 1.7rem;
+        display: flex !important;
+        justify-content: center !important;
+    }
+} */
 .vision-state-content{
     font-family: 'roboto', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /* vision statement  */
@@ -36,7 +39,7 @@ body{
 
 .we-do-content{
     font-family: 'roboto', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 @media (min-width:1024px) and (max-width:1330px){
@@ -49,20 +52,13 @@ body{
     }
 }
 
-.about-fixed-bg {
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height:300px;
-    width: 100%;
-    color: white;
-    display: table;
-  }
 
   /* time line  */
 .timeline-head{
     color: #533549;
+}
+.timeline-content{
+   box-shadow: 10px 20px 30px #de829e;
 }
 
 .timeline-span{

@@ -42,3 +42,25 @@ table.table-sty{
 .display{
   display: none;
 }
+
+.admission-bg-btn{
+  padding-left: 20px;
+  padding-right: 20px;
+  cursor: pointer;
+  color: #fff !important;
+  border: none;
+}
+
+.admission-bg-btn:focus{
+  border: none !important;
+}
+
+/* Scholarship */
+
+.scholarship-title{
+  background-color: #fBe6ec;
+}
+
+.scholarship-span{
+  color: #d70140;
+}

@@ -244,7 +244,7 @@ a.normal-btn:hover{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height:400px;
+  height:300px;
   width: 100%;
   color: white;
   display: table;
@@ -536,9 +536,7 @@ a.normal-btn:hover{
   }
 
 }
-/* @media (max-width:768px) and (min-width:999px) {
-  .footer-form
-} */
+
 .footer-form{
   width: 300px;
 }
@@ -547,4 +545,10 @@ a.normal-btn:hover{
   color: #d70140;
   max-width: 100%;
   height: auto;
+}
+
+@media (max-width:425px) {
+  .footer-bg-color{
+    padding: 20px;
+  }
 }
