@@ -9,13 +9,12 @@ body{
     font-size: 2.8rem;
     padding-top: 110px;
 }
-/* @media (max-width:425px) {
+@media (max-width:425px) {
     .about-fixed-img-title{
         font-size: 1.7rem;
-        display: flex !important;
-        justify-content: center !important;
+        padding-bottom: 100px;
     }
-} */
+}
 .vision-state-content{
     font-family: 'roboto', sans-serif;
     font-size: 1rem;

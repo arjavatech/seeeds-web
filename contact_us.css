@@ -1,0 +1,73 @@
+.contact-fixed-img-title {
+    color: #fff;
+    font-size: 2.8rem;
+    padding-top: 110px;
+}
+
+.contact-form {
+    background-color: #efdada;
+    border-radius: 10px;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 20px 40px 20px 40px;
+}
+
+.contact-submit {
+   background-color: #d70140 !important;
+   padding-left: 150px !important;
+   padding-right: 150px !important;
+   color: #fff !important;
+}
+
+.contact-form-input{
+    border-color: #d70140 !important;
+}
+
+@media (max-width:1000px) and (min-width:768px){
+    .contact-submit{
+        padding-left: 80px !important;
+        padding-right: 80px !important;
+    }
+}
+
+
+@media (max-width:1222px) and (min-width:1024px){
+    .contact-submit{
+        padding-left: 123px !important;
+        padding-right: 123px !important;
+    }
+}
+
+
+/* @media (max-width:1440px) and (min-width:1320px){
+    .contact-submit{
+        padding-left: 180px !important;
+        padding-right: 180px !important;
+    }
+} */
+
+
+@media (max-width:340px){
+    .contact-submit{
+        padding-left: 112px !important;
+        padding-right:112px !important;
+    }
+}
+
+@media (max-width:375px) and (min-width:350px){
+    .contact-submit{
+        padding-left: 140px !important;
+        padding-right:140px !important;
+    }
+}
+
+/* --address,emil,phone--  */
+.address-bar{
+  color: #d70140;
+}
+
+ /* .address-row{
+    padding-top: 100px;
+    padding-left: 100px;
+} */
+ 

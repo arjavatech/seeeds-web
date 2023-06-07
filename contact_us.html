@@ -2,9 +2,9 @@
 <html>
 
 <head>
-    <title>Events</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="events.css">
+    <link rel="stylesheet" href="contact_us.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="admission_script.js" defer></script>
 </head>
 
 <body>
@@ -59,22 +58,22 @@
             <div class="collapse navbar-collapse content-center justify-content-center" id="menu">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link nav-link-style " href="index.html">Home</a>
+                        <a class="nav-link nav-link-style" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-style" href="about.html">About Us</a>
+                        <a class="nav-link nav-link-style " href="about.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-style" href="admissions.html">Admissions</a>
+                        <a class="nav-link nav-link-style " href="admissions.html">Admissions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-style active" href="#">Events</a>
+                        <a class="nav-link nav-link-style" href="events.html">Events</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-style" href="success_stories.html">Success Stories</a>
+                        <a class="nav-link nav-link-style " href="success_stories.html">Success Stories</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-style" href="contact_us.html">Contact Us</a>
+                        <a class="nav-link nav-link-style active" href="contact_us.html">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -92,58 +91,83 @@
         <i><a href="#" class="fa-solid fa-file-lines animation-icon" id="apply"><span class="p-3">Apply</span></i></a>
     </div><!-- ----END DONATE,VOLUNTER,APPLY AIMATION BUTTON---- -->
 
-    <!-- ----EVENT---  -->
+    <!-- ---- SUCCESS STORIES--  -->
     <div class="wrapper">
         <div class="fixed-bg bg-img">
             <div class="heading">
-                <h3 class="events-fixed-img-title text-center">Events</h3>
+                <h3 class="contact-fixed-img-title text-center">Contact Us</h3>
             </div>
         </div>
-    </div><!-- -----END EVENTS---  -->
+    </div><br><!-- -----END SUCCESS STORIES---  -->
 
-    <!-- ---SEEEDS CONNECT--  -->
+    <!-- ---CONTACT FORM--  -->
     <div class="container">
-        <h4 class="seeds-content-head p-4 text-center fs-3">SEEEDS <span class="seeds-content-span">CONNECT</span></h4>
-        <p class="justify-content-center fs-5">This is SEEEDS’ first step in its remarkable journey. The main purpose of
-            this event is to celebrate the
-            outstanding group of students we have and to encourage them to grow greater heights. We also would like to
-            acknowledge the donors, volunteers and mentors who have been the pillars of SEEEDS in many ways. This
-            journey
-            wouldn’t have been possible without them. We have also invited the parents and guardians of every SEEEDS
-            students and we will recognise them for allowing their children to pursue their dream. We will use this
-            event as
-            a platform to attract more volunteers and donors as there are hundreds and thousands of students who have
-            great
-            dreams but needs a supporting hand to fulfil them. And SEEEDS will always be a ladder to every
-            underprivileged
-            student.</p>
-    </div><br>
+        <h4 class="text-center text-dark font-weight-bolder text-center p-4">Enquiry</h4>
+        <div class="container">
+            <form class="d-flex justify-content-center">
+                <div class="contact-form">
+                    <label for="validationDefault01" class="form-label footer-form-name">Name<span
+                            class="footer-span">*</span></label>
+                    <input type="text" class="form-control contact-form-input" id="validationDefault01" required>
 
-    <!-- ---LATEST EVENTS--  -->
-    <div class="container">
-        <!-- Photo Grid -->
-        <div class="row grid-row">
-            <div class="column grid-col">
-                <img src="image/grid_1.webp" class="grid-img">
-                <img src="image/grid_4.jpg" class="grid-img">
-                <img src="image/grid_7.jpeg" class="grid-img">
-                <img src="image/grid_8.jpeg" class="grid-img">
-            </div>
-            <div class="column grid-col">
-                <img src="image/grid_2.webp" class="grid-img">
-                <img src="image/grid_5.jpeg" class="grid-img">
-                <img src="image/grid_9.jpeg" class="grid-img">
-                <img src="image/grid_12.webp" class="grid-img">
-            </div>
-            <div class="column grid-col">
-                <img src="image/grid_3.png" class="grid-img">
-                <img src="image/grid_6.jpg" class="grid-img">
-                <img src="image/grid_10.jpg" class="grid-img">
-            </div>
+                    <label for="validationDefault02" class="form-label  footer-form-name">Student/Volunteer/Donor<span
+                            class="footer-span">*</span></label>
+                    <input type="text" class="form-control contact-form-input" id="validationDefault02" required>
+
+                    <label for="validationDefaultUsername" class="form-label footer-form-name">Email<span
+                            class="footer-span">*</span></label>
+
+                    <input type="text" class="form-control contact-form-input" id="validationDefaultUsername"
+                        aria-describedby="inputGroupPrepend2" required>
+
+                    <label for="validationDefault03" class="form-label footer-form-name text-center">Message<span
+                            class="footer-span">*</span></label>
+                    <textarea class="form-control contact-form-input" id="validationDefault03" required></textarea>
+                    <br>
+                    <button class="contact-submit btn my-3" type="submit">Submit</button>
+                </div>
+            </form>
 
         </div>
-    </div><br>
-    <!-- ---END LATEST EVENTS--  -->
+    </div><br><!-- ---END CONTACT FORM--  -->
+
+    <!-- ---ADDRESS EMAIL PHONE--  -->
+    <!-- <div class="wrapper">
+        <div class="fixed-bg bg-img address-fix-img">
+            <div class="heading"> -->
+                <!-- <div class="row  m-auto p-5 address-row">
+                    <div class="col-sm-4 col-md-3 address">
+                        <h3 class="address-bar fs-2 font-weight-bolder">Address:</h3>
+                        <p class="fs-4 address-sub">Chennai-600</p>
+                    </div>
+                    <div class="col-sm-4 col-md-5 address">
+                        <h3 class="address-bar fs-2 font-weight-bolder">Email:</h3>
+                        <p class="fs-4 address-sub">contact@seeeds.org</p>
+                    </div>
+
+                    <div class="col-sm-4 col-md-4 address">
+                        <h3 class="address-bar fs-2 font-weight-bolder">Phone:</h3>
+                        <p class="fs-4 address-sub">044
+                            2646
+                            7230</p>
+                    </div>
+                </div> -->
+            <!-- <div class="row">
+                <div class="col-sm-4">
+                    <h3 class="address-bar fs-2 font-weight-bolder pt-5">Address: <br><p class="text-white">Chennai-600</p></h3>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="address-bar fs-2 font-weight-bolder pt-5">Address: <br><p class="text-white">Chennai-600</p></h3>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="address-bar fs-2 font-weight-bolder pt-5">Address: <br><p class="text-white">Chennai-600</p></h3>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div><br> -->
 
     <!-- FOOTER  -->
     <div class="footer-fluid footer-bg-color ">
@@ -153,7 +177,7 @@
                     <h4 class="pt-5 footer-title pb-2">Quick Links</h4>
                     <a href="about.html" class="footer-links">About Us</a><br>
                     <a href="admissions.html" class="footer-links">Admissions</a><br>
-                    <a href="#" class="footer-links">Events</a><br>
+                    <a href="events.html" class="footer-links">Events</a><br>
                     <a href="success_stories.html" class="footer-links">Success Stories</a><br>
                     <a href="contact_us.html" class="footer-links">Contact Us</a><br>
                     <h4 class="footer-sub-title pt-4">
@@ -224,6 +248,6 @@
             <p class="text-muted mb-0 py-2">&copy; 2023 Seeeds All rights reserved.</p>
         </div>
     </div>
-</body>
 
-</html>
+    </body>
+    </html>

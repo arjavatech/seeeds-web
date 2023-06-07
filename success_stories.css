@@ -1,0 +1,35 @@
+
+.stories-fixed-img-title{
+    color: #fff;
+    font-size: 2.8rem;
+    padding-top: 110px;
+}
+
+@media (max-width:425px) {
+  .stories-fixed-img-title{
+      font-size: 1.7rem;
+      padding-bottom: 100px;
+  }
+}
+
+.success-stories-img{
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+    padding: 50px;
+    padding-bottom: 0px !important;
+}
+
+.success-stories-span{
+  color:#d70140;
+}
+
+.success-stories-card{
+ /* box-shadow: -7px 0 40px 15px #f099b3;  */
+ box-shadow: -4px 5px 30px #fab7cb;
+border-radius: 10px;
+}
+
+.stories-card-name{
+  color: #d70140;
+}
