@@ -70,3 +70,46 @@ table.table-sty{
 .scholarship-span{
   color: #d70140;
 }
+
+/* Wrapper fadin-animation  */
+.fadin-left{
+  -webkit-animation: fadein 1s linear 1 forwards;
+  animation: fadein 1s linear 1 forwards;
+}
+
+@-webkit-keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.animate-3{
+  animation-name: animation3;
+  animation-duration: 1.5s;
+}
+
+@keyframes animation3 {
+  0% {
+      left: 700px;
+      top: 25px;
+  }
+
+  100% {
+      left: 0px;
+      top: 15px;
+  }
+}

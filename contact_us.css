@@ -39,14 +39,6 @@
 }
 
 
-/* @media (max-width:1440px) and (min-width:1320px){
-    .contact-submit{
-        padding-left: 180px !important;
-        padding-right: 180px !important;
-    }
-} */
-
-
 @media (max-width:340px){
     .contact-submit{
         padding-left: 112px !important;
@@ -83,3 +75,37 @@
     width:100%;
     height: 500px;
 }
+
+
+/* Wrapper fadin-animation  */
+.fadin-left{
+    -webkit-animation: fadein 1s linear 1 forwards;
+    animation: fadein 1s linear 1 forwards;
+  }
+  
+  @-webkit-keyframes fadein {
+      0% {
+          opacity: 0;
+      }
+  
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  @keyframes fadein {
+      0% {
+          opacity: 0;
+      }
+  
+      100% {
+          opacity: 1;
+      }
+  }
+
+  @media (max-width:768px) {
+    .contact-fixed-img-title {
+        font-size: 1.7rem;
+        padding-bottom: 100px;
+    }
+  }
