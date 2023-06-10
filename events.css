@@ -1,21 +1,6 @@
 
-/* * {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-} */
-
-/* .header {
-  text-align: center;
-  padding: 32px;
-} */
-
 /* Events  */
-
-
+/* FIXED BG-IMG STYLE  */
   .events-fixed-img-title{
     color: #fff;
     font-size: 2.8rem;
@@ -28,7 +13,10 @@ body {
       padding-bottom: 100px;
   }
 }
+/* --END FIXED BG-IMG STYLE--  */
 
+   
+/* GRID IMAGES STYLE  */
 .grid-row {
   display: -ms-flexbox; /* IE10 */
   display: flex;
@@ -72,14 +60,18 @@ body {
 .grid-img{
     width: 100%;
 }
+/* --END GRID IMG STYLE--  */
 
-/* seeeds content  */
+
+/* SEEEDS CONNECT */
 .seeds-content-span{
   color:#d70140;
 }
+/* --END SEEEDS CONNECT--  */
 
-/* Wrapper fadin-animation  */
-.fadin-left{
+
+/* BLER ANIMATION*/
+.bler-animation{
   -webkit-animation: fadein 1s linear 1 forwards;
   animation: fadein 1s linear 1 forwards;
 }
@@ -103,3 +95,5 @@ body {
         opacity: 1;
     }
 }
+
+/* --END BLER ANIMATION--  */

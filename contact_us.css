@@ -1,9 +1,23 @@
+                                    /* CONTACT PAGE  */
+
+/* FIXED BG-IMG STYLE  */
 .contact-fixed-img-title {
     color: #fff;
     font-size: 2.8rem;
     padding-top: 110px;
 }
+@media (max-width:768px) {
+    .contact-fixed-img-title {
+        font-size: 1.7rem;
+        padding-bottom: 100px;
+    }
+  }
 
+/* --END FIXED BG-IMG STYLE--  */
+
+
+/* ENQUIRY  */
+/* contact form  */
 .contact-form {
     background-color: #efdada;
     border-radius: 10px;
@@ -22,6 +36,7 @@
 .contact-form-input{
     border-color: #d70140 !important;
 }
+
 
 @media (max-width:1000px) and (min-width:768px){
     .contact-submit{
@@ -52,8 +67,10 @@
         padding-right:140px !important;
     }
 }
+/* --END ENQUIRY--  */
 
-/* --address,emil,phone--  */
+
+/* ADDERESS, EMAIL, PHONE */
 .address-bar{
   color: #d70140;
 }
@@ -62,23 +79,36 @@
     padding-top: 100px;
 }
 
+.address-col {
+    position: relative;
+    top: 70px;
+    font-size: 20px;
+}
+@media (max-width:425px) {
+  .address-fix-img{
+    height: 388px;
+  }
+}
 
 @media (max-width:768px) and(min-width:500px){
     .address-sub{
         font-size: .2rem !important;
     }
 }
+/* --END ADDERESS, EMAIL, PHONE--  */
 
+
+/* LOCATION */
 .contact-loc-link{
-    /* width:100%;
-    height: 100%; */
     width:100%;
     height: 500px;
 }
+/* --END LOCATION--  */
 
 
-/* Wrapper fadin-animation  */
-.fadin-left{
+
+/* BLER ANIMATION*/
+.bler-animation{
     -webkit-animation: fadein 1s linear 1 forwards;
     animation: fadein 1s linear 1 forwards;
   }
@@ -102,10 +132,4 @@
           opacity: 1;
       }
   }
-
-  @media (max-width:768px) {
-    .contact-fixed-img-title {
-        font-size: 1.7rem;
-        padding-bottom: 100px;
-    }
-  }
+/* --END BLER ANIMATION-- */

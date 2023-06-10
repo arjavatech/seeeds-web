@@ -1,4 +1,5 @@
 
+/* FIXED BG-IMG STYLE  */
 .stories-fixed-img-title{
     color: #fff;
     font-size: 2.8rem;
@@ -10,8 +11,11 @@
       font-size: 1.7rem;
       padding-bottom: 100px;
   }
-}
+}/* --END FIXED BG-IMG STYLE--  */
 
+
+/* SUCEESS STORIES OF SEEEDS  */
+/* card img style  */
 .success-stories-img{
     display: flex !important;
     justify-content: center !important;
@@ -25,7 +29,6 @@
 }
 
 .success-stories-card{
- /* box-shadow: -7px 0 40px 15px #f099b3;  */
  box-shadow: -4px 5px 30px #fab7cb;
 border-radius: 10px;
 }
@@ -33,15 +36,17 @@ border-radius: 10px;
 .stories-card-name{
   color: #d70140;
 }
+/* --END SUCCESS STORIES OF SEEEDS--  */
 
-/* Wrapper fadin-animation  */
-.fadin-left{
+
+/* BLER ANIMATION */
+.bler-animation{
   -webkit-animation: fadein 1.5s linear 1 forwards;
   animation: fadein 1.5s linear 1 forwards;
   opacity: 0;
 }
 
-.fadin-left.visible {
+.bler-animation.visible {
     opacity: 1;
     transform: translate(0, 0);
   }
@@ -55,95 +60,4 @@ border-radius: 10px;
         opacity: 1;
     }
 }
-
-
-/* .fadin-right{
-    animation: 1s slide-right-hero;
-}
-
-@keyframes slide-right-hero {
-    from {
-        margin-left: -40%;
-    }
-
-    to {
-        margin-left: 0%;
-    }
-}
-
-.right-slide{
-    -webkit-animation: fadein 1s linear 1 forwards;
-    animation: fadein 1s linear 1 forwards;
-}
-
-@-webkit-keyframes fadein {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-@keyframes fadein {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
- */
-/* 
-.animate-3{
-    animation-name: animation3;
-    animation-duration: 1.5s;
-    opacity: 0;
-   
-}
-
-.animate-3.visible {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
-  
-
-@keyframes animation3 {
-    0% {
-        left: 100px;
-        top: 0px;
-    }
-
-    100% {
-        left: 0px;
-        top: 0px;
-    }
-}
-
-
-.fadin-right{
-    animation-name: animation2;
-    animation-duration: 1.5s;
-    opacity: 0;
-   
-}
-
-.fadin-right.visible {
-    opacity: 1;
-    transform: translate(0, 0);
-  }
-  
-
-@keyframes animation2 {
-    0% {
-        right: 100px;
-        top: 0px;
-    }
-
-    100% {
-        right: 0px;
-        top: 0px;
-    }
-} */
+/* --END BLER ANIMATION--  */
