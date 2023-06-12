@@ -121,6 +121,7 @@ li.nav-item {
 
 .nav-link-style:hover {
   color: #d70140 !important;
+  cursor: pointer !important;
 }
 
 .active {
@@ -330,9 +331,12 @@ a.normal-btn:hover {
   height: 200px;
 }
 
-.card-carousel-icon {
-  color: #d70140 !important;
-}
+/* .carousel-control-prev-icon{
+  background-image: url(image/left-arrow.png) !important;
+  height: 50px !important;
+  width:30px !important;
+  opacity: 1 !important;
+} */
 
 .card-carousel-img-name {
   text-align: center;
@@ -428,7 +432,7 @@ a.normal-btn:hover {
 }
 
 .footer-links:hover {
-  color: #fff;
+  color: #f5aec3;
 }
 
 .footer-title {

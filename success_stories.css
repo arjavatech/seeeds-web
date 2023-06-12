@@ -20,6 +20,7 @@
     display: flex !important;
     justify-content: center !important;
     text-align: center !important;
+    padding-top: 20px !important;
     padding: 50px;
     padding-bottom: 0px !important;
 }
@@ -31,6 +32,7 @@
 .success-stories-card{
  box-shadow: -4px 5px 30px #fab7cb;
 border-radius: 10px;
+border: none !important;
 }
 
 .stories-card-name{
