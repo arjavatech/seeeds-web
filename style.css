@@ -509,4 +509,33 @@ a.normal-btn:hover {
   opacity: 1;
   transform: translate(0, 0);
 }
+
+@media (max-width:768px) {
+ .fadin-mob{
+    -webkit-animation: fadein 1s linear 1 forwards;
+    animation: fadein 1s linear 1 forwards;
+  }
+  
+  @-webkit-keyframes fadein {
+      0% {
+          opacity: 0;
+      }
+  
+      100% {
+          opacity: 1;
+      }
+  }
+  
+  @keyframes fadein {
+      0% {
+          opacity: 0;
+      }
+  
+      100% {
+          opacity: 1;
+      }
+  }
+  
+ }
+
 /* --END FADIN ANIMATIN STYLE--  */
