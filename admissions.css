@@ -37,6 +37,7 @@ body{
 
 /* ADMISSION STATICS  */
 /* tables  */
+/* 2022  admission color*/
 .table-bg{
   background-color: #fbd153;
 }
@@ -45,9 +46,55 @@ body{
   background-color: #f2d693;
 }
 
-table.table-sty{
+/* table.table-sty{
   border-color: #fffc5f;
+} */
+
+
+/* 2020  admission color (Green)*/
+.table-green{
+  background-color: rgb(68, 176, 68);
 }
+
+.sub-table-green{
+  background-color: rgb(123, 246, 123);
+}
+/* ---  */
+
+
+/* 2019  admission color (blue)*/
+.table-blue{
+  background-color: rgb(123, 89, 191);
+}
+
+.sub-table-blue{
+  background-color: rgb(166, 148, 246);
+}
+/* ---  */
+
+
+/* 2018 admission color (orange) */
+.table-orange{
+  background-color: rgb(179, 112, 50);
+}
+
+.sub-table-orange{
+  background-color: rgb(228, 169, 115);
+}
+
+
+/* 2021 admission color (red) */
+
+.table-red{
+  background-color: #f04679;
+}
+
+.sub-table-red{
+  background-color: #f5adc2;
+}
+
+/* ---  */
+
 
 /* Js display properity  */
 
