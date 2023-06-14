@@ -5,13 +5,32 @@
     color: #fff;
     font-size: 2.8rem;
     padding-top: 110px;
+    margin-top: 180px;
 }
-@media (max-width:768px) {
-    .contact-fixed-img-title {
+
+@media (max-width:800px) {
+    .contact-fixed-img-title{
         font-size: 1.7rem;
-        padding-bottom: 100px;
+        padding-bottom: 100px !important;
+        padding-top: 10px !important;
     }
-  }
+}
+
+/* address bg-img-fix  */
+
+.address-fixed-bg{
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 200px;
+    width: 100%;
+    color: white;
+    display: table;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
 
 /* --END FIXED BG-IMG STYLE--  */
 

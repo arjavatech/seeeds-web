@@ -10,8 +10,6 @@ body {
 }
 /* ---  */
 
-
-
 /*HEADER STYLE  */
 
 .seeds-logo {
@@ -98,8 +96,9 @@ body {
 /* NAVIGATION STYLE */
 
 #navbar {
-  position: sticky;
+  position: fixed;
   top: 0;
+  width:100%;
   background: #fff;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
   z-index: 20;
@@ -116,7 +115,7 @@ li.nav-item {
 .nav-link-style {
   position: relative;
   left: 30px;
-  color: #cbb6c5 !important;
+  color: #cdcdcd !important;
   font-size: 20px;
   padding: 0 0 10px 10px;
   font-weight: bold;
@@ -124,19 +123,36 @@ li.nav-item {
 
 .nav-link-style:hover {
   color: #d70140 !important;
-  cursor: pointer !important;
 }
 
 .active {
   color: #d70140 !important;
   font-size: 20px;
-  /* font-weight: bold; */
 }
 /*--- END NAVIGATION BAR----*/
 
 
- /* DONATE,VOLUNTER,APPLY ANIMATION BUTTON STYLE  */
+/* --SLIDE CAROUSEL--  */
+.carousel-position{
+  margin-top:160px !important;
+  clear: both !important;
+}
 
+
+@media (max-width: 1000px) {
+  .carousel-position {
+    margin-top: 87px !important;
+  }
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #d70140;
+}
+
+/* --END SLIDE CAROUSEL-- */
+
+
+ /* DONATE,VOLUNTER,APPLY ANIMATION BUTTON STYLE  */
 /* Side buttons style  */
 #sidebtn .animation-icon {
   position: fixed;
@@ -207,7 +223,7 @@ a.normal-btn:hover {
   color: #fff;
  }
 
- @media (max-width:425px) {
+ @media (max-width:600px) {
   a.normal-btn {
     margin: 18px;
   }
@@ -230,7 +246,7 @@ a.normal-btn:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 300px;
+  height: 458px;
   width: 100%;
   color: white;
   display: table;
@@ -284,10 +300,38 @@ a.normal-btn:hover {
   background-image: url('image/banner_2.png');
 }
 
+.vision-fixed-bg{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+  width: 100%;
+  color: white;
+  display: table;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
 /* home bg-img-2  */
 /* what we do bg-img img  */
 .bg-img-fix-2 {
   background-image: url('image/banner_1.jpg');
+}
+
+.we-do-fixed-bg{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+  width: 100%;
+  color: white;
+  display: table;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 
 
@@ -298,15 +342,17 @@ a.normal-btn:hover {
     font-size: .7rem;
   }
 
-  .fixed-bg {
-    /* height: 200px !important; */
-    max-width: 100%;
-    height: auto;
-  }
 
   .seeds-since-icon {
     padding-top: 30px;
   }
+}
+
+@media (max-width:800px) {
+  .fixed-bg{
+    height: 100px !important;
+  }
+  
 }
 
 /* --END FIXED-BACKGROUND IMG STYLE--- */
@@ -569,3 +615,4 @@ a.normal-btn:hover {
  }
 
 /* --END FADIN ANIMATIN STYLE--  */
+
