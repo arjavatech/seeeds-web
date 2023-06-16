@@ -409,15 +409,49 @@ a.normal-btn:hover {
   }
 }
 
+.card-carousel-pref-name{
+  font-size: .8rem;
+  text-align: center !important;
+  color: rgb(117, 115, 115);
+}
 
 .card-carousel-img-name {
-  text-align: center;
+  margin-left: 5.2rem !important;
   color: black;
 }
 
-.card-carousel-pref-name {
-  text-align: center;
+.card-carousel-img-name_1{
+  margin-left: 4.5rem !important;
   color: black;
+}
+
+.card-carousel-img-name_2{
+  margin-left: 4.5rem !important;
+  color: black;
+}
+
+.card-carousel-img-name_3{
+  margin-left: 4.8rem !important;
+  color: black;
+}
+
+.card-carousel-img-name_5{
+  margin-left: 4rem !important;
+  color: black;
+}
+
+.card-carousel-pref-name_1{
+  font-size: .8rem;
+  margin-right: 1.5rem;
+  text-align: center !important;
+  color: rgb(117, 115, 115);
+}
+
+.card-carousel-pref-name_desk {
+  font-size: .8rem;
+  margin-right: 0.5rem !important;
+  text-align: center !important;
+  color: rgb(117, 115, 115);
 }
 
 .card-carousel-img_ipad {
@@ -441,6 +475,21 @@ a.normal-btn:hover {
   margin-left: 60px;
 }
 
+.ipad_card-carousel-img-name_1{
+  margin-left: 1rem;
+  color: #000;
+}
+
+.ipad_card-carousel-img-name_2{
+  margin-left: 2.2rem;
+  color: #000;
+}
+
+.ipad_card-carousel-img-name_3{
+  margin-left: 4.5rem;
+  color: #000;
+}
+
 .ipad-second-card-name {
   margin-right: 115px;
 }/* --end ipad part--  */
@@ -452,23 +501,55 @@ a.normal-btn:hover {
 }
 
 .mob-first-card-img {
-  margin-left: 30px;
+  margin-left: 8%;
 }
 
 .mob-second-card-img {
-  margin-right: 60px !important;
+  margin-right: 8%;
 }
 
-
-.mob-first-card-name {
-  margin-left: 30px !important;
-  ;
-}
-
-.mob-second-card-name {
-  margin-right: 60px !important;
+@media (max-width:600px) {
+  .card-carousel-img-name{
+    margin-left: 0rem !important;
+  }
 }
 /* ---end mob part --- */
+
+/* media query card name  */
+
+@media (max-width:1024px) and (min-width:800px) {
+  .card-carousel-pref-name_desk{
+    margin-left: 3rem;
+   }
+
+   .card-carousel-pref-name_1{
+    margin-left: 3.5rem;
+  }
+
+}
+
+@media (max-width:2560px) and (min-width:1550px) {
+  .card-carousel-pref-name_desk{
+    margin-right: 50% !important;
+  }
+ 
+  .card-carousel-pref-name_1{
+    margin-right: 55%;
+  }
+
+}
+
+@media (max-width:1440px) and (min-width:1024px) {
+  .card-carousel-img-name {
+      margin-right:15% !important ;
+  }
+
+  .card-carousel-pref-name{
+    margin-right: 2rem !important;
+  }
+
+}
+
 
 /* --END CARD-IMG CAROUSEL--  */
 
@@ -484,6 +565,11 @@ a.normal-btn:hover {
 .seeds-sinceSpan {
   color: #d70140;
 }
+
+.seeds-since-icon{
+ color: #d70140 !important;
+}
+
 /* --END SEEEDS SINCE-- */
 
 

@@ -22,6 +22,7 @@ body{
 }
 /* --END FIXED BG-IMG--  */
 
+
 /* OUR SELECTION PROCESS  */
 .slection-process-span{
   color: #d70140;
@@ -36,6 +37,11 @@ body{
   color: black;
   padding-right: 10px;
   padding-left: 10px;
+}
+
+/* carousel-slide indicator style  */
+.carousel .carousel-indicators button{
+  background-color: #746f6f;
 }/* --END OUR SELECTION PROCESS--  */
 
 
