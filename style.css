@@ -229,8 +229,15 @@
                @media (max-width:600px) {
                  a.normal-btn {
                    margin: 18px;
+                   font-size: .8rem;
                  }
                }
+
+               @media (max-width:800px) and (min-width:500px) {
+                a.normal-btn {
+                  margin-right: 0px !important;
+                }
+              }
 
                /* ---END DONATE,VOLUNTEER,APPLY NORMAL BUTTON--- */
 
@@ -300,7 +307,7 @@
                /* home-bg-img-1 */
                /* our vision bg-img  */
                .bg-img {
-                 background-image: url('image/banner_2.png');
+                 background-image: url('image/carousel_1.png');
                }
 
                .vision-fixed-bg {
@@ -380,7 +387,7 @@
                }
 
                .card-carousel-desk {
-                 width: 200px;
+                 width: 180px;
                  height: 200px;
                }
 
@@ -460,12 +467,19 @@
                  color: rgb(117, 115, 115);
                }
 
-               .card-carousel-img_ipad {
-                 width: 200px !important;
-                 height: 200px !important;
-               }
 
                /* ipad part  */
+              
+              .overall_our_team{
+                margin-left: 50px !important;
+                margin-right: 50px !important;
+              }
+
+               .card-carousel-img_ipad {
+                width: 150px !important;
+                height: 200px !important;
+              }
+
                .ipad-first-card-img {
                  margin-left: 100px;
                }
@@ -483,17 +497,17 @@
                }
 
                .ipad_card-carousel-img-name_1 {
-                 margin-left: 1rem;
+                
                  color: #000;
                }
 
                .ipad_card-carousel-img-name_2 {
-                 margin-left: 2.2rem;
+                 margin-left: 1.1rem;
                  color: #000;
                }
 
                .ipad_card-carousel-img-name_3 {
-                 margin-left: 4.5rem;
+                 margin-left: 3.2rem;
                  color: #000;
                }
 
@@ -528,6 +542,22 @@
                /* media query card name  */
 
                @media (max-width:1024px) and (min-width:800px) {
+                 .ourteam_name {
+                   font-size: .9rem;
+                   margin-right: 50px;
+
+                 }
+
+                 .proff-name {
+                   font-size: .8rem;
+                   margin-right: 50px;
+                 }
+
+                 .card-carousel-desk {
+                   width: 100px;
+                   height: 100px;
+                 }
+
                  .card-carousel-pref-name_desk {
                    margin-left: 3rem;
                    margin-right: 0 !important;
@@ -536,9 +566,10 @@
                  .card-carousel-pref-name_1 {
                    margin-left: 3.5rem;
                  }
+
                  .card-carousel-align {
-                  padding-right: 5% !important;
-                }
+                   padding-right: 5% !important;
+                 }
 
                }
 
@@ -550,9 +581,18 @@
                  .card-carousel-pref-name_1 {
                    margin-right: 55%;
                  }
+
                  .card-carousel-align {
-                  padding-left: 5% !important;
-                }
+                   padding-left: 5% !important;
+                 }
+
+                 .ourteam_name{
+                  margin-right: 58% !important;
+                 }
+
+                 .proff-name{
+                  margin-right: 58% !important;
+                 }
 
                }
 
@@ -562,12 +602,12 @@
                  }
 
                  .card-carousel-pref-name {
-                   margin-right: 2rem !important;
+                   margin-right:2rem !important;
                  }
-                  
+
                  .card-carousel-align {
-                  padding-left: 2% !important;
-                }
+                   padding-left: 2% !important;
+                 }
 
                }
 
