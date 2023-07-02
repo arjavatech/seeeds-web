@@ -307,7 +307,7 @@
                /* home-bg-img-1 */
                /* our vision bg-img  */
                .bg-img {
-                 background-image: url('image/carousel_1.png');
+                 background-image: url('image/fix-img.JPG');
                }
 
                .vision-fixed-bg {
@@ -390,7 +390,10 @@
                  width: 180px;
                  height: 200px;
                }
-
+               
+               .proff-name{
+                color: rgb(117, 115, 115);
+               }
                .carousel-control-prev-icon {
                  background-image: url(image/left-arrow.png) !important;
                  height: 48px !important;
