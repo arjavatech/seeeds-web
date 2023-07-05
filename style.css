@@ -43,6 +43,12 @@
                  padding: 30px;
                }
 
+               .header-media {
+                position: relative !important;
+                right: -80px !important;
+                padding: 10px;
+              }
+
                .header-content:hover {
                  color: rgb(255, 255, 255);
                }
@@ -234,10 +240,10 @@
                }
 
                @media (max-width:800px) and (min-width:500px) {
-                a.normal-btn {
-                  margin-right: 0px !important;
-                }
-              }
+                 a.normal-btn {
+                   margin-right: 0px !important;
+                 }
+               }
 
                /* ---END DONATE,VOLUNTEER,APPLY NORMAL BUTTON--- */
 
@@ -303,11 +309,17 @@
                .bg-fixed-img-span {
                  color: #d70140;
                }
+ 
+               .bg-img {
+                background-image: url('image/bg_fix_img.jpg');
+                /* width:4000px; */
+              }
 
                /* home-bg-img-1 */
                /* our vision bg-img  */
-               .bg-img {
-                 background-image: url('image/fix-img.JPG');
+
+               .bg-img_vision{
+                background-image: url(image/bg_fix_vision.jpeg);
                }
 
                .vision-fixed-bg {
@@ -371,6 +383,11 @@
 
                /* CARD-IMG CAROUSEL  */
                /* card carousel  */
+    
+               .ourteam_name {
+                 color: #d70140;
+               }
+
                .card-carousel-background-sty {
                  background-color: pink;
                  padding-bottom: 20px;
@@ -387,13 +404,14 @@
                }
 
                .card-carousel-desk {
-                 width: 180px;
+                 width: 200px;
                  height: 200px;
                }
-               
-               .proff-name{
-                color: rgb(117, 115, 115);
+
+               .proff-name {
+                 color: rgb(78, 67, 67);
                }
+
                .carousel-control-prev-icon {
                  background-image: url(image/left-arrow.png) !important;
                  height: 48px !important;
@@ -433,27 +451,27 @@
 
                .card-carousel-img-name {
                  margin-left: 5.2rem !important;
-                 color: black;
+                 color: #d70140;
                }
 
                .card-carousel-img-name_1 {
                  margin-left: 4.5rem !important;
-                 color: black;
+                 color: #d70140;
                }
 
                .card-carousel-img-name_2 {
                  margin-left: 4.5rem !important;
-                 color: black;
+                 color: #d70140;
                }
 
                .card-carousel-img-name_3 {
                  margin-left: 4.8rem !important;
-                 color: black;
+                 color: #d70140;
                }
 
                .card-carousel-img-name_5 {
                  margin-left: 4rem !important;
-                 color: black;
+                 color: #d70140;
                }
 
                .card-carousel-pref-name_1 {
@@ -470,18 +488,17 @@
                  color: rgb(117, 115, 115);
                }
 
-
                /* ipad part  */
-              
-              .overall_our_team{
-                margin-left: 50px !important;
-                margin-right: 50px !important;
-              }
+
+               .overall_our_team {
+                 margin-left: 50px !important;
+                 margin-right: 50px !important;
+               }
 
                .card-carousel-img_ipad {
-                width: 150px !important;
-                height: 200px !important;
-              }
+                 width: 190px !important;
+                 height: 200px !important;
+               }
 
                .ipad-first-card-img {
                  margin-left: 100px;
@@ -500,8 +517,7 @@
                }
 
                .ipad_card-carousel-img-name_1 {
-                
-                 color: #000;
+                 color: #d70140;
                }
 
                .ipad_card-carousel-img-name_2 {
@@ -589,12 +605,12 @@
                    padding-left: 5% !important;
                  }
 
-                 .ourteam_name{
-                  margin-right: 58% !important;
+                 .ourteam_name {
+                   margin-right: 58% !important;
                  }
 
-                 .proff-name{
-                  margin-right: 58% !important;
+                 .proff-name {
+                   margin-right: 58% !important;
                  }
 
                }
@@ -605,7 +621,7 @@
                  }
 
                  .card-carousel-pref-name {
-                   margin-right:2rem !important;
+                   margin-right: 2rem !important;
                  }
 
                  .card-carousel-align {
@@ -615,6 +631,7 @@
                }
 
 
+  
                /* --END CARD-IMG CAROUSEL--  */
 
 
