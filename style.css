@@ -63,20 +63,28 @@
                /* Login/sign in button  */
                .login-btn {
                  border-radius: 30px;
-                 font-size: 1.2rem;
-                 border: none;
-                 color: black;
-                 padding: 3px 10px;
+                 border: 2px solid #fff;
+                background-color: #d70140;
+                color: #fff;
+                 /* padding: 3px 10px; */
                  position: relative !important;
-                 right: -80px !important;
-                 border-radius: 30px;
+                 right: -110px !important;
+                 /* right: -80px !important; */
                  font-size: 1.2rem;
-                 color: #000;
                  padding: 5px 15px;
                }
 
                .login-btn:hover {
-                 background: #fca7a7;
+                background-color: #fff;
+                border: 2px solid #fff;
+                color: #d70140;
+               }
+
+
+               @media (max-width:1024px)and (min-width:768px) {
+                .login-btn {
+                  right: -80px !important;
+                }
                }
 
                /* over all icon styles  */
