@@ -82,6 +82,18 @@
   color: #d70140;
 }
 
+@media (max-width:500px) {
+  .video_carousel{
+   max-width: 100%;
+   height: auto;
+   margin: 20px;
+   padding-right: 40px;
+  }
+
+  .card {
+    border: none !important;
+  }
+}
 /*--END EVENT PAGE SLIDE CAROUSEL--  */
 
 /* BLER ANIMATION*/
