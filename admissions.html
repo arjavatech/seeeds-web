@@ -18,17 +18,21 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="admission_script.js" defer></script>
     <style>
-          table {
-        border-collapse: collapse;
-      }
-      td,
-      th {
-        padding: 15px;
-        border: 2px solid #d70140;
-        border-radius: 5px;
-        background-color: #efdada;
-        text-align: center;
-      }
+        table {
+            border-collapse: collapse;
+        }
+        td,
+        th {
+            padding: 15px;
+            border: 2px solid #d70140;
+            border-radius: 5px;
+            background-color: #efdada;
+            text-align: center;
+        }
+        #tableFormat{
+            padding-left: 5% !important;
+
+        }
     </style>
 </head>
 
@@ -67,7 +71,7 @@
                             <button type="btn" role="button" class="login-btn ">Donate</button>
                             <a href="results.html" id="admission_result">
                                 <button type="btn" role="button" class="login-btn" >
-                                    Admission Result</a></button></a>
+                                    Admission Result</button></a>
                         </div>
                     </div>
                 </div>
@@ -158,11 +162,11 @@
     </div><!-- ---END OUR SELECTION PROCESS----  -->
 
     <h3 class="selection-process-head p-4 text-center bler-animation">
-        <span class="slection-process-span">ADMISSION RESULTS</span>
+        <span class="slection-process-span result">ADMISSION RESULTS FOR :  2023</span>
     </h3>
-    <div class="row ">
+    <div class="row" id="tableFormat">
         <div class="col-sm-4"></div>
-        <div class="col-sm-8">
+        <div class="col-sm-4">
             <table id="dataTable">
                 <thead>
                     <tr>
@@ -172,10 +176,10 @@
                 </thead>
                 <tbody></tbody>
             </table>
-        </div><br><br>
-        <div id="result"></div>
-        <!-- <div class="col-sm-2"></div> -->
+        </div>
+        <div class="col-sm-4"></div>
     </div><br><br>
+    <!-- <div id="result"></div> -->
 
     <!-- ---ADMISSION STATICS---  -->
     <h3 class="admission-statics-head p-4 text-center fadin">ADMISSIONS <span
